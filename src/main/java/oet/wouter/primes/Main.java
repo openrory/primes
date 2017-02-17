@@ -41,7 +41,7 @@ public class Main {
             int value = prime - previousSquared;
             double angle = (0.0 + value)/range;
 
-            double radius = a * (current-1) + (angle * a);
+            double radius = a * (current-1) + (angle * angle);
             double x = radius * Math.cos(angle * 2 * Math.PI);
             double y = radius * Math.sin(angle * 2 * Math.PI);
 
