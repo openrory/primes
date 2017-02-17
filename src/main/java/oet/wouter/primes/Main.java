@@ -76,7 +76,7 @@ public class Main {
                 .append("\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background-color: black\">");
     }
 
-    private static void appenFooter(StringBuilder builder) {
+    private static void appendFooter(StringBuilder builder) {
         builder.append("</svg> \n");
     }
 }
