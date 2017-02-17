@@ -47,7 +47,7 @@ public class Main {
 
             print(x, -y, "" + prime, prime, buffer);
         }
-        appenFooter(buffer);
+        appendFooter(buffer);
         String data = buffer.toString();
 
         Files.write(Paths.get("/home/wouter/primes.svg"), Collections.singleton(data));
